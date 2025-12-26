@@ -1,0 +1,6 @@
+CREATE TABLE processed_urls (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    url TEXT UNIQUE,
+    source TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
