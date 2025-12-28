@@ -1,0 +1,78 @@
+Connecting an "on-premise" network to an AWS VPC is the most common real-world enterprise scenario.However, you cannot use VPC Peering for this. In the real world,you use AWS Site-to-Site VPN or AWS Direct Connect.
+Peering is for AWS-to-AWS only.
+VPN is for Anything-to-AWS. You use it to connect your home office, a physical data center, or even a different cloud provider (like Azure or Google Cloud) to your AWS VPC.
+The Concept
+VPC-A (The Cloud): Uses an AWS Virtual Private Gateway (VGW).
+VPC-B (The On-Premise): Uses an EC2 instance running strongSwan (an open-source VPN software) to act as your "Corporate Firewall/Router." This is called a Customer Gateway (CGW).
+Using  static routing or BGP (Border Gateway Protocol), you create a secure IPsec VPN tunnel between the two gateways over the public internet.
+1. Cost Analysis (Still < $2)
+Site-to-Site VPN Connection: ~$0.05 per hour.
+EC2 (t3.micro): ~$0.01 per hour.
+Public IP: ~$0.005 per hour.
+Total: If you run this for 2 hours, it will cost roughly $0.15 - $0.20.
+2. The Terraform Strategy
+To simulate this, we need to:
+Project Agenda: 
+
+Cost Management Checklist
+   VPN Connection: $0.05/hour.(Deleted immediately after testing).
+   EC2 t3.micro: $0.01/hour.
+   Public IP: $0.005/hour per IP.
+   Total: If you finish this in 2 hours, you will spend roughly $0.25.
+Steps to Run the Project and make VPN UP
+Note: Amazon Linux 2023 (AL2023) uses dnf and recommends Libreswan instead of strongSwan. Once you can finally connect to your instance, run this script.
+Download Config : 
+Go to AWS Console > VPN > Site-to-Site VPN > Download Configuration. Select Vendor: Generic.
+Get Tunnel 1 Data: Find the Pre-Shared Key and the Virtual Private Gateway IP (called "Outside IP").
+
+Run this on the On-Prem EC2 :
+Install VPN software
+sudo dnf install libreswan -y
+Enable IP Forwarding (Essential for a Router)
+sudo sysctl -w net.ipv4.ip_forward=1
+echo "net.ipv4.ip_forward = 1" | sudo tee -a /etc/sysctl.conf
+Create the Secrets file (Replace placeholders)
+##Format: <OnPrem_Public_IP> <AWS_VPN_Outside_IP> : PSK "<Your_Pre_Shared_Key>"
+sudo vi /etc/ipsec.d/aws.secrets
+Create the Tunnel config
+sudo vi /etc/ipsec.d/aws.conf
+Paste this into aws.conf (Replace the bracketed IPs):
+conn tunnel1
+authby=secret
+auto=start
+left=%defaultroute
+leftid=[YOUR_ONPREM_EIP_PUBLIC_IP]
+leftsubnet=192.168.0.0/16
+right=[AWS_TUNNEL_OUTSIDE_IP]
+rightsubnet=10.10.0.0/16
+ike=aes128-sha1;modp2048
+phase2alg=aes128-sha1;modp2048
+keyexchange=ike
+ikev2=no
+type=tunnel
+run the following commands to restart strongSwan and bring up the tunnel:
+sudo systemctl restart ipsec
+sudo ipsec auto --add tunnel1
+sudo ipsec auto --up tunnel1
+Finally, start the service:
+sudo systemctl start ipsec
+sudo systemctl enable ipsec
+sudo ipsec status  # Check if "tunnel1" is loaded
+Testing
+From your On-Prem EC2, try to ping a private EC2 in the Cloud VPC (10.10.x.x).
+You should see replies if everything is set up correctly!
+
+Learning Outcome : You will finally understand how packets know where to go when they leave a private subnet. You'll see how the "Virtual Private Gateway" handles the cloud side and how a "Customer Gateway" handles the on-prem side.
+Templates let you quickly answer FAQs or store snippets for re-use.
+
+        Are you sure you want to hide this comment? It will become hidden in your post, but will still be visible via the comment's permalink.
+      
+Hide child comments as well
+
+
+          Confirm
+        
+
+For further actions, you may consider blocking this person and/or reporting abuse
+
+          We're a place where coders share, stay up-to-date and grow their careers.

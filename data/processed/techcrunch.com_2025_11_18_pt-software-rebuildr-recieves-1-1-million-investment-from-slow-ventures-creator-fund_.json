@@ -1,0 +1,19 @@
+{
+  "state_summary": "Tayla Cannon, a physiotherapist turned entrepreneur, has developed Rebuildr, a HIPAA-compliant platform to help rehab professionals run their own businesses online. She received $1.1 million in seed funding from Slow Ventures.",
+  "evidence": [
+    "Cannon started sharing her perspective online about 'proactive' and 'holistic' ways people can get rid of pain, which gained her over 130,000 followers on Instagram",
+    "She launched a platform called Athletic Rebuild, which provides rehab and performance coaching for athletes",
+    "Rebuildr is intended to be a 'complete shift from localized reactive care to a proactive, holistic mode', combining consumer solutions, clinicians, education, and software to deliver it all at scale"
+  ],
+  "metadata": {
+    "source_type": "news",
+    "startup_name": "Rebuildr",
+    "investor_name": "Slow Ventures",
+    "funding_stage": "seed round",
+    "startup_location": "",
+    "investor_location": ""
+  },
+  "confidence": 0.9,
+  "processed_at": "2025-12-27T17:45:03.823788",
+  "model": "llama3"
+}

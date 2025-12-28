@@ -1,0 +1,19 @@
+{
+  "state_summary": "Rax is a peer-to-peer clothing rental company founded by Alles, which launched earlier this year. It allows users to rent clothes for up to six months, making it different from competitors that offer only daily rentals.",
+  "evidence": [
+    "Alles thought her dream was to work at a big company but found herself curious about startups",
+    "She created Rax as a solution to the problem of expensive dresses collecting dust in her closet",
+    "Rax is one of the first clothing rental companies launched in Toronto, and it offers long-term rentals unlike many competitors"
+  ],
+  "metadata": {
+    "source_type": "news",
+    "startup_name": "Rax",
+    "investor_name": "",
+    "funding_stage": "",
+    "startup_location": "Toronto",
+    "investor_location": ""
+  },
+  "confidence": 0.8,
+  "processed_at": "2025-12-27T17:45:34.450504",
+  "model": "llama3"
+}

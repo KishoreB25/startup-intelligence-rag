@@ -1,0 +1,24 @@
+WhenEventualfounders Sammy Sidhu and Jay Chia were working as software engineers at Lyft’s autonomous vehicle program, they witnessed a brewing data infrastructure problem — one that would only become larger with the rise of AI.
+Self-driving cars produce a ton of unstructured data from 3D scans and photos to text and audio. There wasn’t a tool for Lyft engineers that could understand and process all of those different types of data at the same time — and all in one place. This left engineers to piece together open source tools in a lengthy process with reliability issues.
+“We had all these brilliant PhDs, brilliant folks across the industry, working on autonomous vehicles but they’re spending like 80% of their time working on infrastructure rather than building their core application,” Sidhu, who is Eventual’s CEO, told TechCrunch in a recent interview. “And most of these problems that they were facing were around data infrastructure.”
+Sidhu and Chia helped build an internal multimodal data processing tool for Lyft. When Sidhu set out to apply to other jobs, he found interviewers kept asking him about potentially building the same data solution for their companies, and the idea behind Eventual was born.
+Eventual built a Python-native open source data processing engine, known as Daft, that is designed to work quickly across different modalities from text to audio and video, and more. Sidhu said the goal is to make Daft as transformational to unstructured data infrastructure as SQL was to tabular datasets in the past.
+The company was founded in early 2022, nearly a year before ChatGPT was released, and before many people were aware of this data infrastructure gap. They launched the first open source version of Daft in 2022 and are gearing up to launch an enterprise product in the third quarter.
+“The explosion of ChatGPT, what we saw is just a lot of other folks who are then building AI applications with different types of modalities,” Sidhu said. “Then everyone started kind of like using things like images and documents and videos in their applications. And that’s kind of where we saw usage just [increase] dramatically.”
+While the original idea behind building Daft stemmed from the autonomous vehicle space, there are numerous other industries that process multimodal data, including robotics, retail tech, and healthcare. The company now counts Amazon, CloudKitchens, and Together AI, among others, as customers.
+Eventual recently raised two rounds of funding within eight months. The first was a $7.5 million seed round led by CRV. More recently, the company raised a $20 million Series A round led by Felicis with participation from Microsoft’s M12 and Citi.
+This latest round will go toward bulking up Eventual’s open source offering as well as creating a commercial product that will allow its customers to build AI applications off of this processed data.
+Astasia Myers, a general partner at Felicis, told TechCrunch that she found Eventual through a market mapping exercise that involved looking for data infrastructure that would be able to support the growing number of multimodal AI models.
+Myers said that Eventual stood out for being a first mover in the space — which will likely get more crowded — and based on the fact that the founders had dealt with this data processing problem firsthand. She added that Eventual is also solving a growing problem.
+The multimodal AI industry is predicted to grow at a35% compound annual growth ratebetween 2023 and 2028, according to management consulting firm MarketsandMarkets.
+“Annual data generation is up 1,000x over the past 20 years and 90% of the world’s data was generated in the past two years, and according to IDC, the vast majority of data is unstructured,” Myers said. “Daft fits into this huge macro trend of generative AI being built around text, image, video, and voice. You need a multimodal-native data processing engine.”
+Becca is a senior writer at TechCrunch that covers venture capital trends and startups. She previously covered the same beat for Forbes and the Venture Capital Journal.
+You can contact or verify outreach from Becca by emailingrebecca.szkutak@techcrunch.com.
+Plan ahead for the 2026 StrictlyVC events. Hear straight-from-the-source candid insights in on-stage fireside sessions and meet the builders and backers shaping the industry. Join the waitlist to get first access to the lowest-priced tickets and important updates.
+How reality crushed Ÿnsect, the French startup that had raised over $600M for insect farming
+Nvidia to license AI chip challenger Groq’s tech and hire its CEO
+Waymo explains why its robotaxis got stuck during the SF blackout
+Marissa Mayer’s new startup Dazzle raises $8M led by Forerunner’s Kirsten Green
+Inside Uzbekistan’s nationwide license plate surveillance system
+ChatGPT launches a year-end review like Spotify Wrapped
+Waymo resumes service in San Francisco after robotaxis stall during blackout

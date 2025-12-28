@@ -1,0 +1,19 @@
+Programmable optics startupLumotivehas added a few more strategic backers to its recent Series B round.
+Redmond, Washington-based Lumotive reopened its recent Series B funding round to bring in Amazon, through its Amazon Industrial Innovation Fund, and ITHCA Group, the technology investment arm of Oman’s sovereign wealth fund, as investors.
+These fresh funds bring the company’s Series B round to $59 million, up from the $45 million Lumotive initially closed in February. The startup has raised more than $100 million in venture capital to date.
+Lumotive CEO Sam Heidari told TechCrunch that the startup saw a lot more demand for participating in the round than he initially predicted. While the company had turned away some investors, he said it made sense to open it back up for ITHCA Group and Amazon.
+“Amazon, it has a lot of strategic value for us,” Heidari said. “We do appreciate the relationship more than the money.”
+Lumotive’s Light Control Metasurface solid-state chips are made up of nano-scale pixels that can be controlled electronically to bend and manipulate light. These chips have a variety of use cases, from autonomous vehicles sensing their surroundings, offering a smaller more cost-effective alternative to mechanical lidar, to optical switching in places like data centers.
+“It is a paradigm shift of being able to manipulate the light electronically,” Heidari said. “Being able to shape the light, to steer the light, to form the beams the way you want it, to focus the light electronically. We are able to, basically, do what mirrors and motors do today, to work around the lights.”
+Founded in 2018, the company started selling its chips in 2024, and says it has purposefully kept its list of customers small and focused. Heidari said the fresh cash will help it expand sales and marketing, and put more money towards research and development.
+“It is not a science project anymore,” Heidari said about Lumotive’s tech. “It’s a proven technology in the field. We knew that there is a big demand for it. Not only can it work, it can work in a deployable fashion.”
+Becca is a senior writer at TechCrunch that covers venture capital trends and startups. She previously covered the same beat for Forbes and the Venture Capital Journal.
+You can contact or verify outreach from Becca by emailingrebecca.szkutak@techcrunch.com.
+Plan ahead for the 2026 StrictlyVC events. Hear straight-from-the-source candid insights in on-stage fireside sessions and meet the builders and backers shaping the industry. Join the waitlist to get first access to the lowest-priced tickets and important updates.
+How reality crushed Ÿnsect, the French startup that had raised over $600M for insect farming
+Nvidia to license AI chip challenger Groq’s tech and hire its CEO
+Waymo explains why its robotaxis got stuck during the SF blackout
+Marissa Mayer’s new startup Dazzle raises $8M led by Forerunner’s Kirsten Green
+Inside Uzbekistan’s nationwide license plate surveillance system
+ChatGPT launches a year-end review like Spotify Wrapped
+Waymo resumes service in San Francisco after robotaxis stall during blackout

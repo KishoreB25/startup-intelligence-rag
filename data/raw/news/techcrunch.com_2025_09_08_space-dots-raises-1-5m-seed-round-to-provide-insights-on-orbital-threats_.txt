@@ -1,0 +1,30 @@
+The corporate space world tired Bianca Cefalo to the point that she found it easier to literally start her own space company and launch objects into orbit.
+Cefalo is the founder ofSpace DOTs, which launched in 2022 to detect space threats. She and her team have created a software platform called SKY-I for space tech manufacturers and operators to help them detect, interpret, and attribute natural and human-originated threats in orbit.
+She’s spent decades in the industry, working on projects that have put objects on the moon and launched satellites into orbit. She worked as a thermofluid dynamic analyst on theNASA Insight Mission to Marsand was a product manager at Airbus Defence and Space, working on telecommunication satellites.
+She found, however, that industry politics and corporate bureaucracy were bottlenecks to progress. “I got bored of the game,” she told TechCrunch.
+She recalled that every time she would pitch an idea to her last employer, she was met with resistance. “The response was the same, ‘if it hasn’t flown already, we’re not using it on our satellite,’” she recalled. “We were told to innovate, but they refused to adopt anything unproven … I was hired to be an ‘innovator’ inside a corporate giant, but in reality I was being told ‘not too much.’”
+Cefalo said that nearly 15% of spacecraft experience some type of anomaly or failure due to manufacturers’ and operations’ misunderstanding of what space is actually like.
+“Ground simulations can only model so much. The real environment is more complex and every orbital regime is different,” she said.
+For example, what might work in a low orbit won’t necessarily work in deep space. Radiation alone can cause various mishaps that lead to spacecraft failure, while other accidents in space are dismissed as glitches or ‘space weather,’ because there isn’t enough data to explain what is actually happening.
+“Space DOTS fixes this by generating proprietary in-orbit environmental data and fusing it with external sources into real-time attribution, now casting, and forecasting, giving spacecraft the intelligence edge to survive and succeed in contested space,” she said.
+Space DOT is already capturing data from its payload (object in space) and plans to get more from future launches. The company announced Monday a $1.5 million seed round led by Female Founders Fund. Its now raised a total of $3.2 million in total funding.
+Cefalo described the fundraising process as “dating-to-marry” — or, in other words, brutal. She met her lead investors at Female Founders Fund by simply using the firm’s online cold outreach form. She also asked her investors at Sie Ventures if they could make a warm intro to the FFF team.
+“As it turned out, both paths converged: our application was picked up through the form, and Sie was able to connect me directly with Anu. That combination worked out,” Cefalo said.
+Other investors in the round include Feel Ventures and General Electric Company.
+As Cefalo said, the space industry is going through a second revolution, especially as billionaires pour millions of dollars into commercializing space travel. Competitors include names like Ensemble Space Labs and Mission Space.
+Cefalo said her company is different because Space DOTS owns both its hardware and software; it’s focused on commercial, defense, and threat attribution, rather than just forecasting; and its software is also decentralized, which, Cefalo says, makes it “more resilient and scalable for future cislunar and multi-orbit operations.
+“We don’t see space weather players as zero-sum competitors. This is a field where collaboration strengthens the whole ecosystem — our intelligence can plug into and amplify other services, and vice versa,” she continued.
+Cefalo said she will use the seed round to expand her team in London and the U.S., and prepare her technology for upcoming space missions. The future, for her, is one where access to space means shared knowledge rather than gated power.
+“The more we understand what’s happening out there, the better we can protect what matters down here: national infrastructure, civil safety, navigation, and defense,” she said.
+“That knowledge can’t stay locked inside agencies or corporations; it has to become shared understanding, radical access, and planetary belonging.”
+This piece was updated to clairfy what Space DOTS does.
+Dominic-Madori Davis is a senior venture capital and startup reporter at TechCrunch. She is based in New York City.
+You can contact or verify outreach from Dominic by emailingdominic.davis@techcrunch.comor via encrypted message at +1 646 831-7565 on Signal.
+Plan ahead for the 2026 StrictlyVC events. Hear straight-from-the-source candid insights in on-stage fireside sessions and meet the builders and backers shaping the industry. Join the waitlist to get first access to the lowest-priced tickets and important updates.
+How reality crushed Ÿnsect, the French startup that had raised over $600M for insect farming
+Nvidia to license AI chip challenger Groq’s tech and hire its CEO
+Waymo explains why its robotaxis got stuck during the SF blackout
+Marissa Mayer’s new startup Dazzle raises $8M led by Forerunner’s Kirsten Green
+Inside Uzbekistan’s nationwide license plate surveillance system
+ChatGPT launches a year-end review like Spotify Wrapped
+Waymo resumes service in San Francisco after robotaxis stall during blackout

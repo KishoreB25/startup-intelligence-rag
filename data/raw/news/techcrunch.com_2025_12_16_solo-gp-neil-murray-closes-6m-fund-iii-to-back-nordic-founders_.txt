@@ -1,0 +1,25 @@
+The Nordic red-hot startup movement continues. On Tuesday, Neil Murray, founder and general partner at Copenhagen-based firm The Nordic Web Ventures, announced the close of a $6 million Fund III to continue investing in early-stage founders in the region.
+The fund will focus on writing the first institutional checks to companies focused on robotics, AI-native companies, and deep tech founders.
+Murray, a solo GP, told TechCrunch that his first two funds were “test vehicles” to prove his ability to spot and invest in top talent in the region. Now, seven years later, he has written the first check into more than 50 companies, with a portfolio including the unicorn Lovable and the remote worker insurance companySafetyWing, and exits like the UI design company Uizard.
+As TechCrunch previously reported, the Nordic ecosystem (which includes Denmark, Sweden, and Norway) isnow valued at more than half a trillion dollarsand received more than $8 billion in venture funding in 2024, making the region one of the hottest emerging markets in Europe. Murray said Fund III had more than $20 million in investor interest, but he decided to cap it at $6 million because he cares “more about alignment than AUM.”
+Staying small, he said, means he can better tie incentives to performance rather than management fees. He also said staying small, especially as a solo GP, gives him more flexibility while “everyone else is still debating.”
+“Capping the fund wasn’t a constraint,” he said. “It was the strategy.”
+The check sizes for the fund will be around $200,000, and he hopes to back between 30 and 35 companies. “I believe it is more important to be investing in Tier 1 founders than to back Tier 2 founders and over-optimizing for ownership,” he said.
+Murray’s limited partner base includes institutional backers such as Allocator One, founder Christoph Janz, and Pacenotes. Founders from Kahoot and Pleo, in addition to operators from Meta and Google, are also LPs in Fund III.
+“Many founders from my first two funds have invested in my new fund, which is also an incredibly important metric to me,” he said, adding that he’s already returned more than half the capital he raised across Fund I and Fund II.
+His Fund III focuses on AI, robotics, and consumer, he said, because those are some of the top sectors in the Nordic region. Consumer has always been a top category in the sector,as TechCrunch previously spoke abouton a podcast about the region.
+The region is also known for its computer science, engineering culture, and manufacturing, which, paired with a “calm methodical build style,” positions the Nordics well for “AI-powered robotics in industrial, healthcare, logistics, and increasingly consumer context.”
+Though he has a keen interest in the Nordics, Murray actually hails from the U.K. and moved to Denmark in 2013 without knowing a single person, he recalled.
+“I was very interested in tech startups, having worked in digital products in London,” he continued. When he moved to Copenhagen, he realized the ecosystem has had a big contribution to the tech world, though people hardly spoke up about it. That led him to start the website “The Nordic Web,” where he broke down what was happening behind the curtains of the bugeoning tech scene there.
+That website saw him tracking investments and exits, and soon VCs were asking him which founders were looking for capital. Soon, Murray wanted in on the action, and in 2017, he launched a $500,000 Fund I. He stopped writing The Nordic Web shortly after to focus more on investing. And all of that has led him here.
+“Overall, the Nordics aren’t experiencing a ‘moment,’” he said. “They’re experiencing a compounding. The depth of talent, the ambition level, and the maturity of the ecosystem mean this wave isn’t a spike; it’s the foundation of the next decade of Nordic breakout companies.”
+Dominic-Madori Davis is a senior venture capital and startup reporter at TechCrunch. She is based in New York City.
+You can contact or verify outreach from Dominic by emailingdominic.davis@techcrunch.comor via encrypted message at +1 646 831-7565 on Signal.
+Plan ahead for the 2026 StrictlyVC events. Hear straight-from-the-source candid insights in on-stage fireside sessions and meet the builders and backers shaping the industry. Join the waitlist to get first access to the lowest-priced tickets and important updates.
+How reality crushed Ÿnsect, the French startup that had raised over $600M for insect farming
+Nvidia to license AI chip challenger Groq’s tech and hire its CEO
+Waymo explains why its robotaxis got stuck during the SF blackout
+Marissa Mayer’s new startup Dazzle raises $8M led by Forerunner’s Kirsten Green
+Inside Uzbekistan’s nationwide license plate surveillance system
+ChatGPT launches a year-end review like Spotify Wrapped
+Waymo resumes service in San Francisco after robotaxis stall during blackout

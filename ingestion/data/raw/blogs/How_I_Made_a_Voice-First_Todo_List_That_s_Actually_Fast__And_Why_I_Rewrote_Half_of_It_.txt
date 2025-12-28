@@ -1,0 +1,192 @@
+TL;DR: I built a todo app. Then I made it slower by over-engineering it. Then I made it 6x faster by embracing platform capabilities. Here's what I learned about premature optimization, when to actually optimize, and why sometimes the "boring" solution is the right one.
+
+Look, I know what you're thinking. "Another todo app? Really? In 2025?"
+But hear me out. I built WhisperPlan for one simple reason: I hate typing on my phone. Like, really hate it. The autocorrect betrayals, the tiny keyboard, the context switching from "thing I need to do" to "person actively typing on a tiny keyboard."
+And here's the thing about ADHD (which I have, and which I'm building for): the friction between "I should do this" and "I have written this down" needs to be as close to zero as possible. Because if it takes more than 3 seconds, my brain has already moved on to something else. Probably a Wikipedia deep-dive about Byzantine architecture.
+So I built WhisperPlan: a voice-first todo list. You press a button, you talk, and boom—tasks appear. Like magic, except it's actually OpenAI's Whisper and Google's Gemini having a conversation about your life.
+
+The app includes:
+This is the story of how I built it, realized it was too slow, tore half of it out, and made it 6x faster. Buckle up.
+Let me be honest with you: I didn't choose this stack after careful consideration of all options, extensive benchmarking, and architectural decision records. I chose it because I already knew these technologies and I wanted to ship something, not write a PhD thesis.
+Here's what I went with:
+Why native? Because I wanted widgets, Dynamic Island integration, and that buttery 120fps scroll. Also, my target audience is "people who own iPhones and hate typing," which feels like a pretty specific demographic.
+SwiftUI is delightful once you stop fighting it. SwiftData is CoreData without the trauma. Together they're like peanut butter and chocolate—if peanut butter occasionally crashed your app because you forgot to mark something @Published.
+Why NestJS? TypeScript comfort zone. Decorators make me feel fancy. Dependency injection makes me feel like a "real" backend developer.
+Why Cloud Run? Because I wanted serverless-ish (scale to zero, pay for what you use) but I also wanted to deploy a Docker container and not think about it. Plus, the cold start is under 1 second, which is faster than me making decisions in the morning.
+Plot twist: This choice would later save my performance bacon. But initially, I treated it like a boring NoSQL database I had to use because I was already in the Firebase ecosystem.
+Spoiler alert: Firestore's real-time listeners and offline support are chef's kiss.
+Sign in with Apple. Because it's 2025 and nobody wants another password.
+
+The "boring technology" crowd would approve of most of this. Except maybe the part where I initially over-engineered the backend. We'll get to that.
+Here's how I initially architected WhisperPlan:
+
+Every. Single. Operation. Went. Through. The. Backend.
+Reading tasks? Backend API call.
+Creating tasks? Backend API call.
+Updating a task? Backend API call.
+Marking a checkbox? You guessed it—Backend API call.
+Look, I had reasons:
+So I built this beautiful, over-engineered sync service. 477 lines of TypeScript that handled:
+Here's a simplified version of what that looked like:
+
+This endpoint did EVERYTHING. It was my baby. I was so proud of it.
+It was also completely unnecessary.
+
+The iOS side was equally complex:
+
+Beautiful, right? Complex, sophisticated, enterprise-grade!
+Also: slow. Very, very slow.
+I launched a beta. People used it. People... waited. A lot.
+Then I actually measured things (novel concept, I know):
+App startup: 2-3 seconds
+Task completion: 500-1000ms
+Network requests per session: 20-30 requests
+Data transferred: ~100KB per session
+The moment of clarity came when I sat with the app open and actually used it. I completed a task. I waited. The checkbox hung there in limbo. Then—half a second later—it actually checked.
+Half a second to mark a checkbox.
+I was making THREE API CALLS just to check a box:
+This was ridiculous. This was over-engineering. This was... exactly the kind of thing I make fun of other developers for doing.
+Time to fix it.
+Here's the thing about epiphanies: they usually involve realizing you were doing something dumb all along.
+I was treating Firestore like a dumb database that I had to protect behind an API. But Firestore isn't dumb. Firestore is smart. It has:
+I had all of this available and I was... not using it? Because of some vague notion that "backends should control everything"?
+I was reading the Firestore documentation (procrastinating, really) and I saw this:
+"Firestore SDKs include built-in support for offline data persistence. This feature caches a copy of the Cloud Firestore data that your app is actively using, so your app can access the data when the device is offline."
+Wait. WHAT?
+You mean I can:
+And I've been... wrapping everything in a REST API... for no reason?
+I rewrote the architecture with a simple principle: Use the backend only for things that REQUIRE the backend.
+
+This is what software architects call a "hybrid approach." I call it "using the right tool for the job."
+Here's what completing a task looked like before:
+
+And here's the new way:
+
+50-100ms. 10x faster. And it works offline!
+Now, you might be thinking: "But wait! If clients can write directly to Firestore, what about security? What about quota enforcement?"
+This is where Firestore security rules save the day. They're basically server-side validators that run on every request:
+
+This is brilliant because:
+The backend still handles creates/deletes so I can enforce the freemium quota:
+
+Beautiful. Secure. Fast.
+
+
+Remember that 477-line sync service? Gone. Replaced with this:
+
+That's it. Real-time sync. Offline support. Automatic conflict resolution (last-write-wins based on updatedAt timestamp). All in about 100 lines.
+The BackendSyncService still exists, but it's now down to 150 lines and only handles:
+Everything else? Direct Firestore access.
+After rewriting the architecture, I measured again:
+But the numbers don't tell the whole story. The app feels different now:
+Because Firestore's SDK has built-in persistence, offline mode is basically automatic:
+No complex queue system. No manual retry logic. No sync conflicts to resolve manually. It just works.
+The Firestore listeners mean that if I complete a task on my iPhone, it appears as completed on my iPad instantly. No polling. No manual refresh. Magic.
+
+The first time I saw this work, I literally said "woah" out loud like I was in The Matrix.
+My mistake wasn't building a backend—it was building TOO MUCH backend.
+What I should have done from the start:
+The trap I fell into:
+"If I'm building a backend, everything should go through the backend!"
+No. Just because you have a hammer doesn't mean everything is a nail. Sometimes things are screws. Or maybe they don't need fastening at all and you're just adding complexity.
+I violated both parts of this:
+The right approach:
+Tools I wish I'd used earlier:
+Firestore security rules are essentially a DSL for server-side validation. They're:
+This snippet alone saved me from having to write an entire middleware layer:
+
+Challenge: How do you enforce "25 tasks max" when clients write directly to Firestore?
+Solution: Split operations by privilege level:
+Backend code for enforcement:
+
+This way:
+I thought offline support meant:
+Reality:
+
+Firestore handles:
+Combined with SwiftData for app-level caching, the user never sees "no connection" errors. They just... use the app.
+Okay, let's talk about the actual point of WhisperPlan: turning voice into tasks.
+When the user records audio, the iOS app sends it to my backend:
+
+Backend forwards it to OpenAI:
+
+The gpt-4o-transcribe model is scary good. It handles:
+Now I have text: "I need to call mom tomorrow at 2pm and also buy milk and don't forget to finish the blog post by Friday"
+Time to turn that into structured tasks. Enter Google Gemini:
+
+Prompt Engineering Lessons I Learned the Hard Way:
+The quality of task extraction lives or dies by your prompt. Here's what actually matters:
+1. Context is King
+Don't just send the transcription. Send:
+2. Structure Your Output Schema Clearly
+Be extremely specific about the JSON structure you want. I use TypeScript-style definitions right in the prompt:
+
+3. Few-Shot Examples Are Worth 1000 Words
+Include 3-5 examples showing:
+4. Be Explicit About Edge Cases
+Tell the LLM what to do when:
+5. Validate Everything
+LLMs hallucinate. Your code should:
+
+6. Iterate Based on Real Usage
+My first prompt worked 60% of the time. After analyzing 100+ failed extractions, I discovered patterns:
+Each discovery led to prompt tweaks and validation rules.
+The Result:
+With good prompt engineering and validation, the system now handles:
+Example flow:
+
+Success rate after optimization: ~95%
+The remaining 5% are usually edge cases like:
+For these cases, users can manually edit the extracted tasks before saving.
+
+The AI pipeline: Voice recording → Whisper transcription → Gemini extraction → Structured tasks in Firestore → Real-time sync to app. The whole process takes 3-5 seconds.
+Cost Considerations:
+As an indie dev, API costs matter. Here's what I learned:
+Whisper (gpt-4o-transcribe): ~$0.006 per minute of audio
+Gemini (gemini-2.5-flash): ~$0.00001 per request
+Total cost per transcription: ~$0.01 on average
+Is it perfect? No. Does it work 95% of the time? Yes. And that remaining 5% can be edited manually—which is exactly the right tradeoff for a v1 product.
+Building for ADHD meant focusing on:
+When you complete a task, you get:
+
+Every morning at 8am (customizable), WhisperPlan sends a notification:
+"Good morning! You have 5 tasks today. Top priority: Finish blog post"
+Tap the notification → opens daily briefing view with:
+WhisperPlan Beta is live on TestFlight now! You can find it at https://testflight.apple.com/join/5XCdyGDr
+What's next:
+Questions for the community:
+Drop your thoughts in the comments! I'm actively building based on feedback.
+Here's what I learned building WhisperPlan:
+1. It's okay to get the architecture wrong the first time. 
+I built a slow, over-engineered backend-heavy app. Then I measured it. Then I fixed it. That's not failure—that's iteration.
+2. Use platform capabilities instead of abstracting them away.
+Firestore has an iOS SDK. SwiftData has offline support. Firebase has real-time listeners. I could have saved myself weeks by using these from the start.
+3. Measure everything.
+I didn't measure initially. That was dumb. When I finally measured, I found obvious problems. Now I measure everything.
+4. Security rules are underrated.
+Firestore security rules let you have the speed of direct database access with the security of backend validation. This is the secret sauce of the hybrid architecture.
+5. The joy of indie development: you can rewrite everything.
+No committees. No architectural review boards. No "but we've always done it this way." Just you, your code, and the freedom to say "this is dumb, let's make it better."
+6. Build for yourself first.
+I built WhisperPlan because I needed it. I have ADHD. I hate typing on my phone. I forget things constantly. Every feature is something I wanted. And that authenticity shows.
+WhisperPlan is live. It's fast. It's voice-first. It has confetti.
+Try it out: whisperplan.app
+And if you're building your own indie app, remember: it's okay to rewrite half of it. Sometimes that's exactly what you need to do.
+Thanks to:
+If you made it this far, you're amazing. Go build something cool. Or take a nap. Both are valid choices.
+— Isidore
+P.S. If you have ADHD and this app sounds useful, try it out! And if you don't have ADHD but you hate typing on your phone, also try it out! And if you're a developer curious about hybrid architectures, I hope this post was helpful!
+P.P.S. The backend code is not open source, but if you have specific questions about the architecture, hit me up in the comments
+Templates let you quickly answer FAQs or store snippets for re-use.
+
+        Are you sure you want to hide this comment? It will become hidden in your post, but will still be visible via the comment's permalink.
+      
+Hide child comments as well
+
+
+          Confirm
+        
+
+For further actions, you may consider blocking this person and/or reporting abuse
+
+          We're a place where coders share, stay up-to-date and grow their careers.

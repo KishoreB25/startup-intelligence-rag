@@ -1,0 +1,22 @@
+WhenPhia‘s founders Phoebe Gates and Sophia Kianni decided to build an AI startup, they targeted an area they understood well: online shopping.
+The founders, who met at Stanford when they were randomly paired up as roommates, understood e-commerce because they had spent hours upon hours trying to find the right items to expand their wardrobe. And AI, they realized, had the potential to help people discover, shop, and buy in new ways. They also realized that capability was a market opportunity.
+“There felt like there was this giant white space for, like, what should we actually buy, and why doesn’t everyone have a personal shopper in their pocket?” said Gates onstage atTechCrunch Disrupt 2025on Tuesday.
+The startup emerged from a class project where it proved its initial demand. But the service didn’t launch to the public until Phia found the right product-market fit, Kianni says.
+The tool, available as a browser extension andapp, lets shoppers compare prices, including for second-hand items, adding a sustainability factor to the shopping experience.
+Phia says it integrates with more than 150 second-hand platforms, and has over 350 million items in its in-house search database. Kianni pointed out that buying second-hand represents an 80% reduction in carbon footprint, compared with buying new. Plus, it’s cheaper.
+Kianni said the service also helps users understand the value of what they’re buying. “If you’re looking at a $500 handbag on Phia, you can quickly understand, can you resell that item for $300 or $400? Or, on the contrary, if it’s a fast-fashion piece and you’re buying it for $100 bucks, is it only reselling for $10? Does it immediately depreciate and lose 90% of its value?”
+The startup is also developing an AI shopping advisor that will help users understand value factors like a good deal, or what an item’s retained value may be, as well as fashion basics like whether the item will fit based on the user’s previous orders and returns. The founders said the sizing insights feature is currently in beta with a small group of users.
+The founders have used a variety of tactics to attract an audience, including an ambassador program, making their own content about the product’s development, and even starting a podcast.
+“The ability to acquire hundreds of thousands of downloads at a very low cost through the podcast and the various different distribution vehicles has been really important,” said Kianni.
+Plus, Gates said, sharing the realities of building a startup with their audience helped Phia’s potential users connect with the founders and their story.
+“I think there was a bit of an ego death that we had to go through,” Gates said. “At first, it’s like, ‘I want to look good in all of our content.’ But if you want people to engage with it, and you want to make content at the volume that we need to, you need to be able to just pull back the curtain.”
+Gates, whose dad isyes, that Gates, acknowledges that she’s come to the startup experience from a position of privilege, but says they don’t necessarily go to him for advice.
+“So, while my dad — I think he’s a genius — he’s not the one shopping on Phia, right? Like, he’s not hunting for the best deal across different sites. He’s not comparing his wish list items for his spring break trip,” she said.
+Plan ahead for the 2026 StrictlyVC events. Hear straight-from-the-source candid insights in on-stage fireside sessions and meet the builders and backers shaping the industry. Join the waitlist to get first access to the lowest-priced tickets and important updates.
+How reality crushed Ÿnsect, the French startup that had raised over $600M for insect farming
+Nvidia to license AI chip challenger Groq’s tech and hire its CEO
+Waymo explains why its robotaxis got stuck during the SF blackout
+Marissa Mayer’s new startup Dazzle raises $8M led by Forerunner’s Kirsten Green
+Inside Uzbekistan’s nationwide license plate surveillance system
+ChatGPT launches a year-end review like Spotify Wrapped
+Waymo resumes service in San Francisco after robotaxis stall during blackout

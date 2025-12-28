@@ -1,0 +1,161 @@
+This article was co-authored with my colleagues Varun Purandare and Candice du Fretay. The Accel 2021 Euroscape was unveiled earlier today at SaaStock EMEA and you can view the full presentation here.
+
+
+
+*************************
+
+
+
+The European and Israeli cloud ecosystem is accelerating as never before.
+
+
+
+
+
+Back in 2016, Europe and Israel had only four public companies worth less than $9B combined and local cloud companies had raised just $900M throughout 2015. Today, Europe and Israel have generated 23 public companies worth $231B and private cloud financing reached c. $30B. The $900M of SaaS VC funding in 2015 now represents less than Europe's largest financing round, with Celonis raising $1B in June this year.
+
+
+
+And the milestones don’t stop there:
+
+
+
+- Europe generated the largest cloud IPO of 2021, with UiPath closing its first day of trading with a $36B market cap
+
+- Europe and Israel minted the two fastest cloud companies to hit unicorn status, with Wiz (14 months) and Hopin (17 months)
+
+
+
+So now feels like the right time to ask:
+
+
+
+“Are Europe and Israel on the path to global dominance?”
+
+
+
+Before answering this, let’s take a look at what happened in the global software and cloud market over the last year.
+
+
+
+Global market snapshot
+
+The world now has 10 software and cloud giants worth more than $100B, representing $4.1T of market capitalization. This world of giants is dominated by one colossus: Microsoft. The company weighs in at more than half (55%) of the entire group and grew its market cap by $600B+ - more than the nine other companies combined! In 2014, when Satya Nadella succeeded Steve Ballmer and became CEO, Microsoft was worth $330B. The development of Azure and the shift to the cloud has propelled the company to new heights.
+
+
+
+Looking at newcomers, this year has seen two companies break the $100B market cap mark: ServiceNow and Square, pushed by the rise of enterprise automation and digital payments respectively. One of the 2020 giants also left this select club: Zoom, which was impacted by the failed acquisition of Five9 and people’s gradual return to offices.
+
+Beyond the giants, the momentum continues for the public companies in our global cloud Index. The Index added another $0.9T in value in the past year and the pace of growth is accelerating. The average growth rate of the companies increased from 18% last year to 26% this year. While the average forward revenue multiple has declined slightly since its February 2020 peak (19x), it’s still higher today than last year at 17x vs 15.8x in Sept 2020.
+
+
+
+The cloud IPO market has also been very active with 32 IPOs vs. 17 in 2020. It’s worth noting though that while the number of IPOs increased, the companies were smaller and raised less capital than those last year. In 2020, c. 60% of the cloud IPOs had a market cap of $5B+ vs. only 28% this year. As the IPO window was pushed wide open and multiples reached new highs, the public market tempted smaller companies while the 2020 crop was more mature. The beginning of the year also saw a lot of hype around SPACs, but few cloud companies chose this route to go public (only 11 in Europe, Israel and the US in 2021) and their average market cap was on average less than half of the IPOs.
+
+
+
+On the M&A front, while 2021 has seen one of the largest ever cloud acquisitions - Salesforce’s acquisition of Slack for $28B - the year’s top three strategic M&As (Slack, Mailchimp, Auth0) represent only $47B. This number looks relatively low compared to $330B+ of cash and cash equivalents sitting on the balance sheet of the cloud giants and public companies in our global cloud Index. It seems that the high multiples we’re seeing on the private markets are deterring public companies from actioning some M&As but we should expect this dry powder to be put to work at some point, if the multiples are correct.
+
+
+
+Private is the new Public
+
+The private cloud financing market is firing on all cylinders. While last year was a record-breaking year, 2020 now looks small in comparison to 2021 to date. Private cloud companies in the US, Europe and Israel have raised a whopping $78B YTD. Annualised, this would be 2.7x larger than last year! The number of unicorns has also nearly doubled from 131 to 226. The pace of innovation we’re seeing in the cloud ecosystem is unprecedented, driven by the continued shift to cloud infrastructure, the need for more automation to support digital transformation, increasing security challenges and the growing amount of data to be managed and leveraged for insights and machine learning.
+
+
+
+What’s even more remarkable is that the amount of financing poured into private cloud companies dwarfed the amount raised by public cloud companies in 2021, as hedge funds like Coatue, Tiger and Dragoneer are turning their eyes to the private tech markets.
+
+
+
+Europe and Israel ecosystem reaching escape velocity
+
+
+
+While the global cloud market is growing fast, Europe and Israel are accelerating even faster. Leveraging 20+ hubs across the region, an unparalleled level of entrepreneurial talent and ambition, and full access to global capital markets, European and Israeli cloud start-ups no longer have to envy their US counterparts. And the numbers speak for themselves. In the past 12 months, Europe and Israel have generated 11 new IPOs vs. 3 in 2020 and the total market cap of public Europe and Israeli cloud companies has reached $231bn, up more than 2x from last year. These 11 new public companies have raised a total of $6B, including three monster IPOs which account for 55% of this amount (UiPath, SentineOne and Monday.com).
+
+
+
+On the private side, the magnitude of the growth is also unprecedented with c. $30B raised by Europe and Israel’s private cloud companies, a 3x jump from last year. This influx of capital has pushed the number of unicorns up from 44 companies in 2020 to 81 companies this year. With financing rounds now reaching several hundred million, these new unicorns now have firepower that private companies have never had before. This money is actively invested in product - with roadmaps fast-expanding - and M&As, with unicorns acquiring products and talent across regions. For example, Snyk has recently announced a number of acquisitions. This increased ambition and footprint is recognised by investors, as 14 of these unicorns are now valued at more than $5B vs. just two in 2020.
+
+These 81 cloud unicorns have a combined value of $234bn, which is close to the $231bn of their public counterparts, pointing towards a promising IPO pipeline for the next couple of years.
+
+
+
+Looking more closely at the region, Israel is undeniably emerging as a cloud unicorn factory, with 16 new unicorns in 2021 (around a third of the total minted this year to date). Israel also has the largest number of unicorns per capita, with 2.9 unicorns per million people, which is significantly larger than the 0.1 - 0.3 in other major hubs (France, UK, Germany). The key to Israel’s cloud success is due to a number of factors, including:
+
+- Incredible talent coming from its military intelligence unit 8200 and local offices of large tech companies (developed through historical M&As)
+
+- Expertise in areas supported by secular trends: cloud security, infrastructure and payments
+
+- A dense network of seed funds poised to invest large amounts at a pre-product stage ($5-10m)
+
+- Access to global capital at growth stage
+
+
+
+Are Europe and Israel on the path to global cloud dominance?
+
+
+
+Going back to the question we posed at that start, our answer is: yes, the gap that has long existed between European and Israeli SaaS companies and their US counterparts is now closing. All of the data points to the fact that Europe and Israel are on the path to be as fertile as the US - and potentially even more - in the coming years. In terms of the public company figures, there may have been fewer IPOs from European and Israeli companies (11) compared to the US (21), but the metrics are comparable:
+
+
+
+And it’s a similar situation when it comes to the region’s cloud unicorns:
+
+
+
+
+
+Similarly, while the US continues to lead when it comes to private cloud funding volume ($48bn vs $29bn), the rate of growth year-on-year is higher in Europe and Israel (3.2x vs US’ 2.4x). Will we see the gap completely close over the next 12-24 months? We’ll have to see what next year’s data reveals, but what’s certainly become clear over the past year is that the cloud world is a very different one from the one we mapped back in 2016.
+
+Who are the Top 100 companies to watch?
+
+
+
+With Europe and Israel soaring, here is our list of the Top 100 SaaS companies in the region you should be watching over the next year. Future cloud giants are just around the corner!
+
+
+
+
+
+
+
+The world of cloud is now flat
+
+At the end of the day, which region attracts the largest amount of capital isn’t the most important point. What matters most is that innovation in the cloud can now come from anywhere. Accel has been a big believer in cloud since the early days of this shift. The firm was founded more than 35 years ago and the team quickly realised that innovation was not confined to Silicon Valley. We opened our office in London in 2000, followed a few years later by Bangalore. To date, we’ve invested $7B+ in more than 300 companies globally and have worked with many exceptional cloud founders - from Australia to India, the US, Europe and Israel. It’s inspiring to see that the world of cloud is now flat and any region can generate a category defining company, from Atlassian in Australia to UiPath in Romania, Celonis in Germany, Snyk in Israel, and Docusign and Crowdstrike in the US.
+
+
+
+What’s next?
+
+
+
+Looking ahead to what 2022 may hold, there are six key trends we see accelerating:
+
+
+
+- More automation: AI increasing complexity of use cases - The range of use cases for automation will expand to address more complex business processes. In addition, the digital transformation momentum will continue to increase automation requirements and more organisations will create fully automated value chains. We’ll also see the emergence of more low code / no code platforms that address specific vertical needs.
+
+
+
+- AI will change the content creation paradigm - New algorithms and deep learning solutions are lowering the bar when it comes to creating highly-realistic content. For example, programmable avatars using a simple text editor. There’ll also be an increasing range of AI uses-cases, from AI-assisted video and picture editing through to synthetic video and voice, and 3D pictures for ecommerce. With algorithms progressing, AI will likely allow for even more real-time content creation, unlock marketing use-cases with deep levels of personalisation
+
+
+
+- Security focusing on cloud - As business applications and IT infrastructure will continue to shift to the cloud the need for cloud security will continue to increase and address misconfigurations and code vulnerabilities. The distributed workforce will continue to add impetus to the zero trust architecture imperative and infrastructure as code will lead to the convergence of code security, application security and cloud security.
+
+
+
+- API-ification of fintech infrastructure - Banking infrastructure tooling is now productised and also targets non-fintechs. Outsourcing compliance and API-first implementations shorten lead times. Access to non-banking data, such as payroll, insurance, credit and ERP, through APIs is enabling new use cases.
+
+
+
+- The rapid rise of crypto and DeFi infrastructure - Institutional demand is rising and major banks and payments players are now incorporating crypto payments / custody. In addition, consumer demand is exploding as online exchanges, neobrokers and digital banks act as enablers and new use cases are emerging. For example, DeFi and NFTs. Continued development of Ethereum and other protocols is also resulting in increased scalability
+
+‍ - Increased infrastructure for the anywhere workforce - As the world shifts to a hybrid workplace, mixing office and remote work, the need for new collaboration tools is set to increase. With the rise of remote working, companies will be pushed to look further afield to hire talent, which will result in challenging compliance issues. The need to make effective use of internal talent will be greater than ever and AI will unleash a new generation of talent marketplaces
+
+‍
+
+Read the full report here.

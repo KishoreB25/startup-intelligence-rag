@@ -1,0 +1,25 @@
+David Berg learned a lot about the waste management industry by driving a garbage truck around the country as the first employee at Ohio-based Battle Motors.
+He discovered that despite the sheer number of sales prospecting platforms, selling to the waste management industry is still an offline endeavor.
+“All of them had a unanimous way of going to market, which was old-school ways of pen and paper, door-to-door knocking, [and] little-to-no technology on both CRM prospecting or any bit of the sales funnel,” Berg told TechCrunch. “We saw an opportunity there to be the first, not only to build within the space, but to disrupt an entire market.”
+Berg launchedCommanderAIin early 2024 as a customer relationship manager (CRM) and sales prospecting platform built for waste management — and other industrial services like dumpster rentals and industrial recyclers — to fill that gap.
+Berg, who is also the CEO of CommanderAI, said that while Salesforce or HubSpot could be customized for the waste management industry, the technology is too complicated and lacks the necessary nuances about the industry to see widespread adoption. CommanderAI’s software is also better suited to the types of contracts that waste management companies use, he said.
+These platforms don’t have the specific types of data that waste management companies use to find customers, Berg said. Waste management companies sell to small, standalone businesses that might not have an online presence, and to new construction projects that aren’t widely advertised. CommanderAI pulls that information for its users using AI.
+“Although that data is inherently available somewhere on the public web, to be able to segment it and actually repurpose it to where it’s useful took a lot of work,” Berg said. “That’s where the AI [large language model] pipeline comes in. There’s many more nuances within waste.”
+Waste management isn’t a small industry. The U.S. waste management industry generated more than $100 billion in revenue in 2024, according to an industry trade organization. The players in the industry are a diverse mix, ranging from waste haulers with just a handful of trucks up to the $90 billion behemoth Waste Management.
+“The way that we’re approaching it to them is, ‘Hey, look, we know you have a way of selling. You’ve been doing this for 20-plus years. All we’re here to do is help you sell more efficiently,’” Berg said. “’We’re not here to replace your sales team. We’re not here to change your way of doing things.’”
+The company’s platform is designed to work for haulers with one truck up to enterprise-size businesses, Berg said, and is currently focused on mid-to-large regional players. Currently, the company is finding success with medical and hazardous waste management companies.
+CommanderAI has just raised a $5 million seed round led by 11 Tribes Ventures with participation from Watchfire Ventures, Gaingels, and Rad Fund. Berg said the company will use the capital to “pour gasoline on the fire” and bulk up the company’s sales team in addition to continuing to build out the product with features including mapping, marketing, and routing.
+“Most investors, at least a list of investors, don’t have any real investments within waste management,” Berg said. “There are only around 10 active software providers in the entire industry. A lot of it was really just investor education. Here’s who we’re selling to, here’s how they operate.”
+The company plans to expand outside of waste management and into adjacent industries when the timing is right as well.
+“We’d like to have 30% of the waste management industry using CommanderAI AI as their lead source of AI tooling and really any sort of tooling within their tech stack,” Berg said.
+This piece has been updated to correct the spelling of Battle Motors.
+Becca is a senior writer at TechCrunch that covers venture capital trends and startups. She previously covered the same beat for Forbes and the Venture Capital Journal.
+You can contact or verify outreach from Becca by emailingrebecca.szkutak@techcrunch.com.
+Plan ahead for the 2026 StrictlyVC events. Hear straight-from-the-source candid insights in on-stage fireside sessions and meet the builders and backers shaping the industry. Join the waitlist to get first access to the lowest-priced tickets and important updates.
+How reality crushed Ÿnsect, the French startup that had raised over $600M for insect farming
+Nvidia to license AI chip challenger Groq’s tech and hire its CEO
+Waymo explains why its robotaxis got stuck during the SF blackout
+Marissa Mayer’s new startup Dazzle raises $8M led by Forerunner’s Kirsten Green
+Inside Uzbekistan’s nationwide license plate surveillance system
+ChatGPT launches a year-end review like Spotify Wrapped
+Waymo resumes service in San Francisco after robotaxis stall during blackout

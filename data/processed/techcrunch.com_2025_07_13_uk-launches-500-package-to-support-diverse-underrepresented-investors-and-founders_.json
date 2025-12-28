@@ -1,0 +1,19 @@
+{
+  "state_summary": "The British Business Bank (BBB) is creating a \u00a3500 million economic package to support diverse and underrepresented fund managers and founders in the UK.",
+  "evidence": [
+    "\u00a3500 million economic package",
+    "\u00a3100 million committed to supporting female-led ventures",
+    "\u00a3400 million to backing more diverse fund managers and supporting early-stage companies"
+  ],
+  "metadata": {
+    "source_type": "news",
+    "startup_name": "",
+    "investor_name": "",
+    "funding_stage": "",
+    "startup_location": "",
+    "investor_location": ""
+  },
+  "confidence": 1.0,
+  "processed_at": "2025-12-27T17:37:40.276974",
+  "model": "llama3"
+}

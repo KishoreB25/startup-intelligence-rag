@@ -1,0 +1,28 @@
+Let's be honest: Learning DevOps is hard. 
+One day you're learning Linux commands, the next you're drowning in Kubernetes manifests, trying to figure out why your pod is crashing, all while wondering if you should be learning Terraform or Ansible first. 🤯
+I spent years jumping between documentation, YouTube tutorials, and paid courses, trying to piece together a complete picture. I was tired of "Hello World" examples that fell apart the moment I tried to build something real.
+So, I decided to fix it. I built the resource I wish I had when I started.
+Introducing DevOps Guide.
+It is a completely free, open-access learning platform designed to take you from "I don't know what a container is" to "I can deploy a scalable microservices architecture."
+👉 Check it out here: devopsguide.tech
+Most resources fall into two traps:
+DevOps Guide hits the sweet spot. Here is what makes it different:
+I've organized the chaos into three logical tracks:
+For the curious web devs out there, the platform itself is built with:
+It's fast, clean, and distraction-free.
+I built this for the community, and I want it to be the best free resource out there.
+I would love for you to:
+Let's make DevOps accessible to everyone. Happy coding! ☁️❤️
+Templates let you quickly answer FAQs or store snippets for re-use.
+
+        Are you sure you want to hide this comment? It will become hidden in your post, but will still be visible via the comment's permalink.
+      
+Hide child comments as well
+
+
+          Confirm
+        
+
+For further actions, you may consider blocking this person and/or reporting abuse
+
+          We're a place where coders share, stay up-to-date and grow their careers.

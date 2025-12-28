@@ -1,0 +1,21 @@
+{
+  "state_summary": "Eventual, a company founded by Sammy Sidhu and Jay Chia, has built an open-source data processing engine called Daft to help companies process unstructured data. The company raised $7.5 million in seed funding and $20 million in Series A funding to expand its offering and create a commercial product.",
+  "evidence": [
+    "Eventual's founders witnessed a brewing data infrastructure problem while working at Lyft's autonomous vehicle program",
+    "Self-driving cars produce a ton of unstructured data from 3D scans, photos, text, and audio",
+    "The company's open-source engine, Daft, is designed to work quickly across different modalities from text to audio and video",
+    "Eventual counts Amazon, CloudKitchens, and Together AI as customers",
+    "The multimodal AI industry is predicted to grow at a 35% compound annual growth rate between 2023 and 2028"
+  ],
+  "metadata": {
+    "source_type": "news",
+    "startup_name": "Eventual",
+    "investor_name": "CRV, Felicis, Microsoft's M12, Citi",
+    "funding_stage": "Seed ($7.5M), Series A ($20M)",
+    "startup_location": "",
+    "investor_location": ""
+  },
+  "confidence": 0.8,
+  "processed_at": "2025-12-27T17:36:11.131181",
+  "model": "llama3"
+}

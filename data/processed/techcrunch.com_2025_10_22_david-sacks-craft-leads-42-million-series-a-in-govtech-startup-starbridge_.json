@@ -1,0 +1,20 @@
+{
+  "state_summary": "Justin Wenig, co-founder of Starbridge, discusses his experience with public sector sales and how Starbridge's platform helps streamline this process.",
+  "evidence": [
+    "Coursedog was sold to JMI Equity for nine figures in 2021",
+    "Starbridge raised $42 million Series A led by Craft Ventures",
+    "The company has raised $52 million to date, after previously raising a $10 million seed",
+    "Starbridge's platform helps sales teams monitor opportunities in the public sector and provides insights such as ranked scoring of which accounts are most likely to purchase new technology"
+  ],
+  "metadata": {
+    "source_type": "news",
+    "startup_name": "Starbridge",
+    "investor_name": "Craft Ventures, Owl Ventures, Commonweal Ventures, Autotech Ventures",
+    "funding_stage": "Series A",
+    "startup_location": "",
+    "investor_location": ""
+  },
+  "confidence": 0.8,
+  "processed_at": "2025-12-27T17:43:50.227376",
+  "model": "llama3"
+}

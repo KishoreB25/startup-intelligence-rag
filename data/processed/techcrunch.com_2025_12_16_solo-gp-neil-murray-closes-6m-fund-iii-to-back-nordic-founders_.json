@@ -1,0 +1,19 @@
+{
+  "state_summary": "Neil Murray, founder and general partner at The Nordic Web Ventures, announces the close of $6 million Fund III to invest in early-stage founders in the region, focusing on robotics, AI-native companies, and deep tech.",
+  "evidence": [
+    "The fund will focus on writing the first institutional checks to companies focused on robotics, AI-native companies, and deep tech founders.",
+    "Murray has written the first check into more than 50 companies, with a portfolio including the unicorn Lovable and the remote worker insurance companySafetyWing, and exits like the UI design company Uizard.",
+    "The Nordic ecosystem is now valued at more than half a trillion dollars and received more than $8 billion in venture funding in 2024."
+  ],
+  "metadata": {
+    "source_type": "news",
+    "startup_name": "The Nordic Web Ventures",
+    "investor_name": "Neil Murray",
+    "funding_stage": "Series III",
+    "startup_location": "Copenhagen",
+    "investor_location": ""
+  },
+  "confidence": 0.8,
+  "processed_at": "2025-12-27T17:46:13.792228",
+  "model": "llama3"
+}

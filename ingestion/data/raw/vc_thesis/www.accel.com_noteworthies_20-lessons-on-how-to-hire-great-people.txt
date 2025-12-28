@@ -1,0 +1,217 @@
+Startups begin as tight-knit groups that all fit into a cozy office or handful of Zoom tiles. Eventually, founders find themselves recruiting people they don’t know for roles outside their expertise. The team transforms from a few friendly faces into an organization of dozens, hundreds, or beyond. Suddenly, managers are managing managers…who may be managing managers.
+
+It's easy for leaders to think they can wing it, because until now, they always have. But at some point, most will end up hiring the wrong person for the wrong role to solve the wrong problem, and it becomes clear that winging it isn’t working anymore.
+
+Every day, we speak with founders and leaders about how they’re building their teams. We’re sharing some of their best lessons, biggest mistakes, and the practical advice they wish they’d heard when starting out.
+
+‍Quotes have been edited for length and clarity.
+
+‍
+
+1. Make interviewing a badge of honor
+
+“We all agree that hiring is one of the most important things we do in the business. Yet I watch interviewer after interviewer show up and wing it. There’s no other mission-critical part of our business where we do that. Instead, we treat hiring like an honor. That means we have a small list of people approved by the CEO to interview, and we train and prep them extensively. From both a skill-fit and value-fit perspective, you have to be a top performer to be on that list.”
+
+‍Jenny Molyneaux, VP of People, Vercel
+
+Accel People Summit 2025
+
+‍
+
+2. Give candidates a paid work trial
+
+“Everyone who’s considering joining Linear goes through a work trial process. It's basically one to five days when the candidate works with us on a project relevant to their role. It’s a realistic project, not a fake whiteboard kind of task. We pay a daily rate; we don't want people to do free work. We give a vague brief, and it’s their job to figure out the scope. You can use the team as much as you want—it's not a test where you sit alone and can’t talk to anyone. The main thing is that we can see how the person operates. Not only their skills but also how they communicate and how they scope things.”
+
+Karri Saarinen, Co-Founder and CEO, Linear
+
+How Linear’s Karri Saarinen is redefining what scale looks like
+
+‍
+
+3. Gauge AI skills during recruitment
+
+"We let people use AI tools during the interview process so we can see how people incorporate them into their workflows and how well they can communicate their ideas to get an end result."
+
+‍Dennis Cui, VP of Engineering, Decagon
+
+Accel People Summit 2025
+
+‍
+
+4. Test applicants’ ability to ask for what they need
+
+“One thing we screen for is: are you able to ask for help? Because we are a remote company, we don’t know you need help unless you ask for it.”
+
+Karri Saarinen, Co-Founder and CEO, Linear
+
+How Linear’s Karri Saarinen is redefining what scale looks like
+
+‍
+
+5. Don’t trust your intuition
+
+“I always used to say, ‘I want to interview someone, spend some time with them, use my gut intuition, feel like it's somebody I want to have a beer with.’ Now I’m the complete opposite. I've learned so many times that you cannot tell. There's no ‘intuition’ thing. Some people are more polished, some people are less polished. Instead, I always go to the resume. Before anyone gets an interview, the resume has to scream superstar to me. This means demonstrable success in every business they've been in. And most importantly, when they move from one job to the next job, it's a move that a superstar would make.”
+
+Marc Lore, Founder and CEO, Wonder
+
+Wonder’s Marc Lore on blending vision and execution
+
+‍
+
+6. Bring a recruiter on board early
+
+“At 30 people, we had a full-time recruiter. When you're trying to go from 30 to 60 to 120, when you're staffing that fast, having a full-time person in-house—I never would've understood how important that was. Without this, it puts tremendous pressure on the founding team and the CEO to be that checkpoint at the very end of the process. Having a recruiter at the front who is a trusted advisor on your culture side is incredibly, incredibly important.”
+
+Brian Dye, CEO, Corelight
+
+Corelight CEO Brian Dye's lessons on scaling
+
+‍
+
+7. That executive search firm may be worth it
+
+“Executive search companies are amazing. They're worth their weight in gold, much more than I realized. The main thing they do is introduce you to lots of great candidates—some of whom you won't be able to land, some of whom you don't want to land. But you get a wide array of information about what's possible in a particular role. After you've talked to 25 or 30 of these people, you understand what perfect looks like for you.”
+
+Avery Pennarun, Co-Founder and CEO, Tailscale
+
+It’s time to build a better Internet, with Tailscale CEO Avery Pennarun
+
+‍
+
+8. Put your current needs first
+
+“Don’t just look at what the person says they're interested in. Look at what they've actually been doing. Does that relate to the stage of your company? If you're looking at a chief marketing officer and you're 150 people or 500 people, you still need that person to be down in the weeds. So even if they've done that seven or eight years ago, are they close enough? Have they stayed close enough to where they understand how to do that?”
+
+Jeff Shiner, Co-CEO, 1Password
+
+1Password’s Jeff Shiner on balancing B2B and B2C customers in a rapidly evolving tech landscape
+
+‍
+
+9. Train your leaders on the product
+
+“If I were to go back in time, I would spend a lot more time training leaders. One element we add to that is now, with every leader—especially senior leaders—they’ll go through our tutorials. Leaders in every function need to know the broad surface area of the product and what it does for customers. It's irreplaceable. You just make better decisions.”
+
+Vlad Magdalin, Co-Founder and Chief Innovation Officer, Webflow
+
+Webflow’s Vlad Magdalin on the biggest lessons learned from bootstrapping and raising capital
+
+‍
+
+10. Choose the right sales leader for your stage
+
+“I tried to hire a couple of VPs of sales way too early. Frankly, they just couldn't scale down. Hiring your first sales leader is hard because you still want a player-coach. It’s only later, once you're scaling to multiple teams, that you want a more mature sales leader who can also drive process and systems. At the beginning, it's more passion and rapid iteration and ‘let's just hop on calls and close deals.’”
+
+Godard Abel, Co-Founder and CEO, G2
+
+G2’s Godard Abel on how the “Yelp for software” is adapting to AI buying and discovery
+
+‍
+
+11. Find leaders who balance each other
+
+“Leaders can be in two stages of their careers. In the first stage, they have everything to prove. It’s ‘look at me and what I can do.’ In the second, they’ve proven everything they need to, and they’re saying: look at what I have to give. From a team standpoint, you need both. Everyone can't be in the ‘chip on the shoulder,’ ‘I have something to prove’ stage because they'll be fighting with each other. But you can't have everyone in the ‘I've been there and done that’ stage because you lose the hunger and the fight. It's the balance.”
+
+Joel Flory, Co-Founder and Executive Chairman, VSCO
+
+What VSCO’s Joel Flory has learned about leadership, scaling, and building generational companies
+
+‍
+
+12. Get ahead of turnover—and know what’s next
+
+“It's a hard one to accept, but I think if I look back at the last 15 years, there may have been two years where I didn't have a change in my exec teams. So you start with the mindset: someone on my exec team will probably change. And every year you say: these are probably my two hotspots. The moment you know that there's a change likely in a function, you have to know who's underneath that person. If that's an area at risk, who's reporting into that area? Is that strong enough that I can withstand a transition? Go in thinking there's going to be change every year, and prepare for that.”
+
+Suresh Vasudevan, Board Member and former CEO, Sysdig
+
+Sysdig’s Suresh Vasudevan on embracing a “challenger mindset”
+
+‍
+
+13. If you’re not getting it right? You’re in good company
+
+“That tension point of getting from ‘everyone a stone’s throw away from each other’ to a structure that’s scalable in service of that large vision—that’s always a tough transition. I’ve been doing this fifteen years, and I can’t think of a single company that has perfectly hired the right executive team out of the gate.”
+
+Vas Natarajan, Partner, Accel
+
+What VSCO’s Joel Flory has learned about leadership, scaling, and building generational companies
+
+‍
+
+14. Write down your values
+
+“Writing down your values and publishing them [like Netflix did with its Culture Deck] allows you to have conversations while you're interviewing about the stuff you really want to know. You really want to know what kind of boss makes them crazy. You really want to know if having sole ownership of what they produce is okay with them. It allowed us to interview for different skill sets besides just technical ones.”
+
+‍Patty McCord, former Chief Talent Officer, Netflix
+
+Accel People Summit 2025
+
+‍
+
+15. Don’t develop people into your culture—hire for it
+
+“People think you come up with the culture, and you develop people into it. I don’t think that works. You have to be very deliberate about the type of culture you want, and then hire people who fit that culture already. That’s controversial because people think this means you’ve got no diversity. Which is absolutely not true. We’ve got extreme diversity. But the way of working is the important thing. Just being very focused on work, intrinsically motivated, low ego, all these characteristics. It doesn’t matter which country you’re from, which gender you are. We just look for these characteristics within people.”
+
+Paul Copplestone, Co-Founder and CEO, Supabase
+
+Supabase’s Paul Copplestone on the difference between “playing startup” and strategy
+
+‍
+
+16. Don’t be afraid to hire polarizing people
+
+“There’s a big difference between hiring someone who’s an asshole and hiring someone who’s polarizing. No one follows an asshole from their last job. Polarizing people might rub some people on your current team the wrong way, but like eight people will vouch for them. Don’t hire the jerks, but you should hire the polarizing people. They're coachable, and can push your teams in a new and right direction.”
+
+‍Max Mullen, Co-Founder, Instacart
+
+Accel People Summit 2025
+
+‍
+
+17. Promote with caution
+
+“Who you choose to promote to leadership communicates who you want to be and what you value. Consider it carefully.”
+
+‍Cristina Cordova, COO, Linear
+
+Accel People Summit 2025
+
+‍
+
+18. Foster a supportive, direct atmosphere—and hire to grow it
+
+“It’s really important to see how someone talks about previous experiences. Are they a nice person? It’s important to me to make sure everyone is very supportive, really nice, but also direct. I love hearing from new people who join the company that they feel comfortable asking questions.”
+
+Shensi Ding, Co-Founder and CEO, Merge
+
+Merge's Shensi Ding on powering the next generation of AI SaaS companies
+
+‍
+
+19. Build around top talent
+
+“You see a talented team or talented engineer and then you build products around them. You need to build an environment where the talent feels like they’re growing and blossoming.”
+
+Arkady Volozh, Co-Founder and CEO, Nebius
+
+Nebius’s Arkady Volozh on what it takes to build infrastructure needed for the AI era
+
+‍
+
+20. Consider your community as a source of talent
+
+“You can almost think of Supabase as concentric spheres of a company, getting looser and looser as you go. We’ve got the core team that we hire. Then we’ve got contractors and maintainers. Then the community and the wider audience. And people can move in and out of these spheres. We quite often hire people directly from the community. Some of our first hires were maintainers of tools that we needed. They could be based in Peru or Spain, and we could hire them because we’re fully distributed.”
+
+Paul Copplestone, Co-Founder and CEO, Supabase
+
+Supabase’s Paul Copplestone on the difference between “playing startup” and strategy
+
+‍
+
+*
+
+‍
+
+Browse our full catalog of Spotlight On episodes for an inside look at the messy, exhilarating work of building a startup, from the people doing the building.
+
+‍

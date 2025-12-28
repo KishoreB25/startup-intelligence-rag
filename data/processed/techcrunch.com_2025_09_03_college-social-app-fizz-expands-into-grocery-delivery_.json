@@ -1,0 +1,19 @@
+{
+  "state_summary": "Fizz, a college social app, expands into grocery delivery through a partnership with Gopuff, allowing students to order essentials within Fizz's app in as fast as 15 minutes.",
+  "evidence": [
+    "Fizz is available at more than 620 campuses across the United States",
+    "Students are already using Fizz to buy and sell items locally",
+    "Gopuff was founded by college students and has long had a strong presence on campuses"
+  ],
+  "metadata": {
+    "source_type": "news",
+    "startup_name": "Fizz",
+    "investor_name": "",
+    "funding_stage": "$41 million in funding to date",
+    "startup_location": "",
+    "investor_location": ""
+  },
+  "confidence": 0.8,
+  "processed_at": "2025-12-27T17:40:12.317577",
+  "model": "llama3"
+}

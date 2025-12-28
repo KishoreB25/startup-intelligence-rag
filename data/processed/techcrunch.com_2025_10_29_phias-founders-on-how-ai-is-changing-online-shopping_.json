@@ -1,0 +1,21 @@
+{
+  "state_summary": "Phia, an AI-powered shopping tool, helps users find deals and understand the value of what they're buying. It integrates with over 150 second-hand platforms and has a database of over 350 million items.",
+  "evidence": [
+    "Phia's founders Phoebe Gates and Sophia Kianni understood e-commerce because they had spent hours trying to find the right items to expand their wardrobe.",
+    "The startup emerged from a class project where it proved its initial demand.",
+    "The tool lets shoppers compare prices, including for second-hand items, adding a sustainability factor to the shopping experience.",
+    "Buying second-hand represents an 80% reduction in carbon footprint, compared with buying new.",
+    "Phia says it integrates with more than 150 second-hand platforms and has over 350 million items in its in-house search database."
+  ],
+  "metadata": {
+    "source_type": "news",
+    "startup_name": "Phia",
+    "investor_name": "",
+    "funding_stage": "",
+    "startup_location": "",
+    "investor_location": ""
+  },
+  "confidence": 0.8,
+  "processed_at": "2025-12-27T17:44:28.036124",
+  "model": "llama3"
+}

@@ -1,0 +1,20 @@
+{
+  "state_summary": "Ben Sanders launched his emergency response startup Hyper, which announced a $6.3 million seed round led by Eniac Ventures and emerged from stealth. The company uses AI to handle non-emergency calls to 911 services.",
+  "evidence": [
+    "Sanders had his mother sew yellow stripes on his navy sweatpants as a child because he wanted to become a police officer",
+    "He read an article about using AI to reduce wait time for emergency services in his hometown, which sparked the idea for Hyper",
+    "The company's product can handle some 911 calls and is focused on dealing with non-emergency calls that take time away from critical calls",
+    "Hyper has already gone live with many centers and supports more languages"
+  ],
+  "metadata": {
+    "source_type": "news",
+    "startup_name": "Hyper",
+    "investor_name": "Eniac Ventures",
+    "funding_stage": "seed",
+    "startup_location": "",
+    "investor_location": ""
+  },
+  "confidence": 0.8,
+  "processed_at": "2025-12-27T17:39:06.608228",
+  "model": "llama3"
+}

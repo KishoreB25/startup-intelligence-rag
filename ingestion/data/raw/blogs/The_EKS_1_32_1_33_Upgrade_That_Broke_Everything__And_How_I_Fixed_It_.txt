@@ -1,0 +1,84 @@
+Introduction
+Upgrading Kubernetes should be boring.
+This one wasn’t.
+I recently upgraded a production Amazon EKS cluster from 1.32 to 1.33, expecting a routine change. Instead, it triggered a cascading failure:
+This post walks through what broke, why it broke, and the exact steps that stabilized the cluster so you don’t repeat my mistakes.
+Critical Issues
+If you're upgrading to EKS 1.33, know this:
+Anonymous auth is restricted - New RBAC required for kube-apiserver
+Karpenter needs eks:DescribeCluster permission - Missing this breaks everything
+Addons can get stuck "Updating" - managed node groups are your escape hatch
+Part 1: The Failed First Attempt
+What I Did Wrong
+I started with what looked like a standard Terraform upgrade:
+
+What happened
+
+The Root Cause
+EKS 1.33 drops Amazon Linux 2 completely:
+AL2 reaches end of support on Nov 26, 2025 and no AL2 AMIs exist for 1.33.
+The Fix: AL2 → AL2023 Migration
+For Karpenter users, this is actually simple. Update your EC2NodeClass:
+
+Managed node groups (Terraform)
+
+Wait until all nodes are AL2023, then upgrade the control plane.
+Part 2: The Karpenter Catastrophe
+After migrating to AL2023, I cordoned old nodes, no new nodes came up.
+Karpenter was completely stuck.
+The Error
+Checking Karpenter logs revealed:
+
+The Root Cause
+Starting with Karpenter v1.0, the controller requires eks:DescribeCluster to:
+Without this permission, provisioning silently fails.
+The Fix
+Add the permission to your Karpenter controller IAM role:
+
+Then restart:
+
+Karpenter recovered but the cluster still wasn’t healthy.
+Part 3: The Addon Deadlock
+After the control plane upgraded:
+Classic deadlock:
+Nodes need add-ons → add-ons need healthy nodes.
+The Error
+
+The Root Causes
+Anonymous auth restricted (EKS 1.33)
+Add-on update deadlock
+The Fix Part 1: RBAC for kube-apiserver
+Create the missing RBAC:
+
+Errors stopped  but add-ons were still stuck.
+The Fix Part 2: Breaking the Deadlock with Managed Nodes
+With broken Karpenter nodes, I had no way out.
+Solution: temporarily scale up managed node groups.
+
+Why this works
+Within ~10 minutes, the cluster recovered.
+Part 4: Final Cleanup & Validation
+Once stable verify all nodes healthy:
+
+Recommended Add-on Versions for EKS 1.33
+Key Takeaways
+Note
+Looking back, the main issue wasn’t just missing permissions it was configuration drift.
+While the cluster was still running EKS 1.32, I manually added eks:DescribeCluster during the AL2023 migration. Everything worked, so I forgot to codify it in Terraform.
+During the upgrade to EKS 1.33, Terraform re-applied the IAM role and removed the permission right when Karpenter started requiring it.
+The upgrade didn’t introduce the bug.
+Environment: EKS, Terraform, Karpenter v1.x
+Resources
+Templates let you quickly answer FAQs or store snippets for re-use.
+
+        Are you sure you want to hide this comment? It will become hidden in your post, but will still be visible via the comment's permalink.
+      
+Hide child comments as well
+
+
+          Confirm
+        
+
+For further actions, you may consider blocking this person and/or reporting abuse
+
+          We're a place where coders share, stay up-to-date and grow their careers.

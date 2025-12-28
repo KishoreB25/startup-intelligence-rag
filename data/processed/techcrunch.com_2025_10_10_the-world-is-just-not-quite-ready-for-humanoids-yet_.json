@@ -1,0 +1,19 @@
+{
+  "state_summary": "Rodney Brooks, iRobot founder, warns of a humanoid robot investment bubble due to lack of dexterity and fine motor movements.",
+  "evidence": [
+    "Billions of venture dollars being poured into humanoid robot companies",
+    "Humanoids won\u2019t be able to learn dexterity \u2014 or the fine motor movements with hands \u2014 rendering them essentially useless",
+    "Multiple robotics-focused VCs and AI scientists don't expect wide adoption of humanoid robots for at least a few years, if not more than a decade"
+  ],
+  "metadata": {
+    "source_type": "news",
+    "startup_name": "",
+    "investor_name": "",
+    "funding_stage": "",
+    "startup_location": "",
+    "investor_location": ""
+  },
+  "confidence": 0.8,
+  "processed_at": "2025-12-27T17:43:12.699765",
+  "model": "llama3"
+}

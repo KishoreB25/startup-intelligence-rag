@@ -1,0 +1,31 @@
+O projeto "Ficha Monstra" nasceu de uma mistura de necessidade e impulso: eu comprei um VPS durante a black friday por puro consumismo, 2) eu queria escrever e aprender mais sobre usar a inteligência artificial de uma maneira legal no desenvolvimento de software e 3) eu estava cansado de perder minhas fichas de papel na caixinha de fichas de treinos na academia.
+
+Ai nasceu o Ficha Monstra, nome que veio do gemini.
+A premissa era criar uma stack "anti-vibecoding": queria estrutura e controle. Escolhi Blazor .NET Core, Identity, EF e Semantic Kernel no Azure.
+A Fase da Ordem Comecei disciplinado. Usei o Gemini apenas para brainstorming e geração de HTML/CSS, mas mantive o controle arquitetural. Criei a solução .NET manualmente (para evitar o vício das IAs em bibliotecas antigas) e usei o Spec Kit para criar uma "Constituição" do projeto, impondo regras rígidas ao modelo. O resultado? Um MVP honesto e funcional entregue em tempo recorde.
+
+Telas, autenticação, telas de criação, detalhe, listagem, paginação, integração com redis cache, eu fiz também um agente integrado com Plugins do Semantic Kernel que é capaz de ver os exercícios na base e sugerir treinos baseado nas informações que o usuário enviou, validações, testes unitários e integrados, tudo isso em 1 dia. 
+É verdade que o código estava longe da qualidade desejada.
+A Queda para o Vibecoding O problema de ver tudo funcionando rápido é que o poder sobe à cabeça. A sensação de invencibilidade me fez abandonar o plano original. De repente, eu estava improvisando outras features que não estavam planejadas como gamificação, múltiplos dashboards, admin.
+O rigor técnico desapareceu. Parei de criticar o código gerado e o resultado foi inevitável: o projeto, antes até que bonitinho, degradou-se rapidamente.
+O Aprendizado Apesar do caos no código final, houve um brilho técnico: integrei o Playwright com o Gemini via MCP. Ver o modelo "olhando" para a interface e rodando seus próprios testes foi animal.
+
+O Spec Kit é uma surpresa, apesar de ser um pouquinho complicado de entender, ele realmente é uma ferramenta que auxilia e da controle na hora de criação das features.
+As vezes é melhor botar a mão no código e resolver problemas do que escrever mais um prompt e esperar a solução. É preciso saber identificar quando o modelo está patinando no gelo porque a verdade é que quem vai patinar é você e não o modelo.
+No fim, o Ficha Monstra me ensinou que a IA acelera a construção, mas também acelera a criação de dívida técnica se você baixar a guarda. O código gerado é realmente feio e ruim, e é preciso se tornar mais revisor do que o codificador. E saber as bases da engenharia de software é o que faz a diferença.
+
+
+E me deu uma sensação meio estranha para 2026 de que nada será como antes, MESMO.
+Templates let you quickly answer FAQs or store snippets for re-use.
+
+        Are you sure you want to hide this comment? It will become hidden in your post, but will still be visible via the comment's permalink.
+      
+Hide child comments as well
+
+
+          Confirm
+        
+
+For further actions, you may consider blocking this person and/or reporting abuse
+
+          We're a place where coders share, stay up-to-date and grow their careers.

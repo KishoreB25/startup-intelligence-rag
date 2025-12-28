@@ -1,0 +1,25 @@
+Justin Wenig remembers his days at Y Combinator in 2019.
+Back then, he was working with his first startup, Coursedog, which looked to provide more modern tools to higher-educational facilities, including those that work with state departments. He learned quickly that his peers didn’t like working with the public sector — too much bureaucracy.
+Even finding out basic information, like what a school district purchased in the past year, required a lot of paperwork.
+“Out of hundreds of startups, only a handful of us were trying to modernize how government and education worked,” Wenig told TechCrunch. “Investors thought it was too slow, too bureaucratic, too hard to scale. And to be fair, they weren’t wrong. Selling to the public sector was painful.”
+He sold Coursedog in 2021 for nine figures to JMI Equity and remains on the board. In 2024, he launchedStarbridge, a platform that helps business sales teams monitor opportunities in the public sector so they can then take action, such as submitting proposals or drafting bids for grants and budgets. On Wednesday, Starbridge announced a $42 million Series A led by David Sacks’ firm Craft Ventures.
+Wenig said the greatest challenges in public sector is that data is fragmented and inaccessible.
+“Critical buying information is scattered across PDFs, agency websites, meeting minutes, and outdated directories,” he said, adding that vendors spend hours trying to piece together who to contact and other insights.
+Starbridge pulls public web data sources from such sources and puts the information in one place. The sales team using the platform can see a ranked scoring, courtesy of Starbridge, of which public sector accounts are most likely to purchase new technology, and see updates like leadership changes or new initiatives.
+“Instead of chasing noise, our customers have a clear, data-backed view of where to focus and when to act,” he said.
+Wenig described his fundraising journey as “fun,” and said the company met Craft through a friend. Others in the Series A round include Owl Ventures, Commonweal Ventures, and Autotech Ventures. The company has raised $52 million to date, after previously raising a $10 million seed.
+Next, the startup plans to launch “Starbridge integrated experience,” so users do not have to always go to the Starbridge platform to use its technology.
+“Every competitor goes right to your CRM, every question about an account can be answered right from a slackbot, every job change loads right into your sequencer,” Wenig said.
+Others in this space include GovWin and GovSpend. Starbridge said it’s different because it has built AI workflows on top of the datasets to make it easier for sales teams to use.
+He remembers back when he was fundraising for Coursedog. “No VC was interested in talking to us,” he said. But now, in the AI era, the tides are shifting, he said.
+“Maybe nobody wants to run for office anymore, but they do want to build,” he continued. “Seeing this new wave of mission-driven founders tackling real, systemic challenges makes me incredibly hopeful for the future.”
+Dominic-Madori Davis is a senior venture capital and startup reporter at TechCrunch. She is based in New York City.
+You can contact or verify outreach from Dominic by emailingdominic.davis@techcrunch.comor via encrypted message at +1 646 831-7565 on Signal.
+Plan ahead for the 2026 StrictlyVC events. Hear straight-from-the-source candid insights in on-stage fireside sessions and meet the builders and backers shaping the industry. Join the waitlist to get first access to the lowest-priced tickets and important updates.
+How reality crushed Ÿnsect, the French startup that had raised over $600M for insect farming
+Nvidia to license AI chip challenger Groq’s tech and hire its CEO
+Waymo explains why its robotaxis got stuck during the SF blackout
+Marissa Mayer’s new startup Dazzle raises $8M led by Forerunner’s Kirsten Green
+Inside Uzbekistan’s nationwide license plate surveillance system
+ChatGPT launches a year-end review like Spotify Wrapped
+Waymo resumes service in San Francisco after robotaxis stall during blackout

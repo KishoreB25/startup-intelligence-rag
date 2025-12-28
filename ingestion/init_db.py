@@ -1,5 +1,6 @@
 import sqlite3
-
+import os
+os.makedirs("data/metadata", exist_ok=True)
 conn = sqlite3.connect("data/metadata/urls.db")
 cursor = conn.cursor()
 
@@ -15,3 +16,4 @@ CREATE TABLE IF NOT EXISTS processed_urls (
 conn.commit()
 conn.close()
 print("Database initialized successfully.")
+

@@ -1,0 +1,19 @@
+{
+  "state_summary": "Founder Bianca Cefalo left her job to start Space DOTs, a company that detects space threats using software platform SKY-I. She raised $1.5 million in seed funding.",
+  "evidence": [
+    "Bianca Cefalo is the founder of Space DOTs",
+    "Space DOTs launched in 2022 to detect space threats",
+    "The company has received $3.2 million in total funding"
+  ],
+  "metadata": {
+    "source_type": "news",
+    "startup_name": "Space DOTs",
+    "investor_name": "Female Founders Fund, Feel Ventures, General Electric Company, Sie Ventures",
+    "funding_stage": "Seed",
+    "startup_location": "",
+    "investor_location": ""
+  },
+  "confidence": 0.9,
+  "processed_at": "2025-12-27T17:40:39.404633",
+  "model": "llama3"
+}

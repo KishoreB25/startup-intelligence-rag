@@ -1,0 +1,24 @@
+{
+  "state_summary": "Tiffany Luck, a partner at NEA, shares her insights on how to craft the perfect pitch for venture capital firms.",
+  "evidence": [
+    "Founders should have a clear understanding of their company's 'What', 'Why', and 'How'.",
+    "The 'What' sets the stage by explaining the problem, its impact, and existing solutions.",
+    "Showcasing a product demo during 'The What' is effective in grabbing investors' attention.",
+    "Founders should explain their origin story and unique perspective on the solution to demonstrate obsession.",
+    "The 'Why now' addresses market dynamics and readiness for the company's product or service.",
+    "Founders should highlight their team's skills, shared conviction, and milestones achieved so far.",
+    "Discussing pivoting is essential in the 'How' section of the pitch.",
+    "Investors want to see numbers, including market size, traction, and cash burn rate."
+  ],
+  "metadata": {
+    "source_type": "news",
+    "startup_name": "",
+    "investor_name": "Tiffany Luck",
+    "funding_stage": "",
+    "startup_location": "",
+    "investor_location": ""
+  },
+  "confidence": 0.8,
+  "processed_at": "2025-12-27T17:38:26.298110",
+  "model": "llama3"
+}

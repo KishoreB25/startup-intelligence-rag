@@ -1,0 +1,11 @@
+The 2017 Report Card measures attitudes and perception of 700 enterprise IT security practitioners across the globe. The report quantifies how security professionals rate their enterprise’s ability to both assess cybersecurity risks and mitigate threats. These scores were combined to produce a report card score on global cybersecurity status – whether or not the world’s cyber defenses are meeting expectations.
+
+Collectively, participants scored just 61% on the Risk Assessment Index, a drop of 12% from 2016, and 79% on the Security Assurance Index, which remains unchanged. The average overall score, 70%, represents a six percent decline from last year.
+
+Key Security Weakness: Emerging Technologies
+
+Respondents ranked Risk Assessment for cloud and mobile among the biggest current enterprise security weaknesses worldwide. A notable concern includes failing grades in Risk Assessment scores for containerization platforms (52%), DevOps environments (57%) and mobile devices (57%).
+
+Overwhelming Threat Environment Remains Top Challenge
+
+These challenges are further complicated by the constantly evolving and expanding threat landscape – the number one challenge for security pros for the second consecutive year. This heightened technological complexity creates even more opportunity for attackers to exploit gaps in security coverage, leaving all organizations vulnerable to compromise and breach, regardless of the size of their security investments.
