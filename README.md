@@ -35,7 +35,7 @@ This system is built with **LangChain + Ollama + ChromaDB**,as of now ollama is 
 
 ---
 ### 🧠 System Architecture
-![System Architecture](Photos/System architecture.png)
+![System Architecture](Photos/Systemarchitecture.png)
 
 ```
 
