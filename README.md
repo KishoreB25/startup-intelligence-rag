@@ -36,7 +36,7 @@ Here’s the **updated and polished version** of your **🎯 Key Objectives** se
 
 ---
 ### 🧠 System Architecture
-![System Architecture](photos/System architecture.png)
+![System Architecture](Photos/System architecture.png)
 
 ```
 
@@ -201,10 +201,10 @@ streamlit run retrieval/rag_app.py
 ## 📸 Project Screenshots
 
 ### 🏠 Home / Chat Interface
-![Chat Interface](photos/opimage1.png)
+![Chat Interface](Photos/opimage1.png)
 
 ### 🔍 Chat history
-![Chat history](photos/opimage2.png)
+![Chat history](Photos/opimage2.png)
 
 
 
